@@ -1,0 +1,58 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\Debug\ProyectoFinal.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>ProyectoFinal.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>ProyectoFinal.map</FILE>
+  <FILE>ProyectoFinal.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <num><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>9</LINE></num>
+  <setup><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>14</LINE></setup>
+  <mostrar_numeros><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>15</LINE></mostrar_numeros>
+  <apagar><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>32</LINE></apagar>
+  <sacanum><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>112</LINE></sacanum>
+  <obtener_num><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>46</LINE></obtener_num>
+  <generar_num_in><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>96</LINE></generar_num_in>
+  <setup_sacar_de_memo><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>50</LINE></setup_sacar_de_memo>
+  <sacar_de_memo><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>56</LINE></sacar_de_memo>
+  <despues><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>65</LINE></despues>
+  <modulo><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>100</LINE></modulo>
+  <generar_num_out><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>109</LINE></generar_num_out>
+  <sacanum_1><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>117</LINE></sacanum_1>
+  <sacanum_fin><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>190</LINE></sacanum_fin>
+  <sacanum_2><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>122</LINE></sacanum_2>
+  <sacanum_3><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>127</LINE></sacanum_3>
+  <sacanum_4><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>132</LINE></sacanum_4>
+  <sacanum_5><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>137</LINE></sacanum_5>
+  <sacanum_6><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>142</LINE></sacanum_6>
+  <sacanum_7><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>147</LINE></sacanum_7>
+  <sacanum_8><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>152</LINE></sacanum_8>
+  <sacanum_9><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>157</LINE></sacanum_9>
+  <sacanum_A><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>162</LINE></sacanum_A>
+  <sacanum_B><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>167</LINE></sacanum_B>
+  <sacanum_C><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>172</LINE></sacanum_C>
+  <sacanum_D><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>177</LINE></sacanum_D>
+  <sacanum_E><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>182</LINE></sacanum_E>
+  <sacanum_F><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>187</LINE></sacanum_F>
+  <dato_serie><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>199</LINE></dato_serie>
+  <loop_dato1><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>201</LINE></loop_dato1>
+  <loop_dato2><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>207</LINE></loop_dato2>
+  <loop_dato3><FILE>c:\users\tanow\Documents\Atmel Studio\7.0\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>209</LINE></loop_dato3>
+ </LABELS>
+</ASSEMBLER_INFO>
