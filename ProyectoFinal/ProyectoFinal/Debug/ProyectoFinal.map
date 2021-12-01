@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm Wed Dec 01 14:49:11 2021
+AVRASM ver. 2.2.8  E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm Wed Dec 01 15:00:35 2021
 
 
 EQU  SIGNATURE_000 0000001e
@@ -697,33 +697,36 @@ EQU  SPMRaddr     00000032
 EQU  INT_VECTORS_SIZE 00000034
 DSEG num          00000100
 CSEG setup        00000000
-CSEG mostrar_numeros 00000000
-CSEG apagar       0000000a
-CSEG sacanum      0000004e
-CSEG obtener_num  00000016
-CSEG generar_num_in 00000044
-CSEG setup_sacar_de_memo 0000001a
-CSEG sacar_de_memo 0000001f
-CSEG despues      00000027
-CSEG modulo       00000046
-CSEG generar_num_out 0000004d
-CSEG sacanum_1    00000052
-CSEG sacanum_fin  0000008b
-CSEG sacanum_2    00000056
-CSEG sacanum_3    0000005a
-CSEG sacanum_4    0000005e
-CSEG sacanum_5    00000062
-CSEG sacanum_6    00000066
-CSEG sacanum_7    0000006a
-CSEG sacanum_8    0000006e
-CSEG sacanum_9    00000072
-CSEG sacanum_A    00000076
-CSEG sacanum_B    0000007a
-CSEG sacanum_C    0000007e
-CSEG sacanum_D    00000082
-CSEG sacanum_E    00000086
-CSEG sacanum_F    0000008a
-CSEG dato_serie   00000093
-CSEG loop_dato1   00000094
-CSEG loop_dato2   00000099
-CSEG loop_dato3   0000009a
+EQU  baud         00002580
+EQU  F_CPU        00f42400
+EQU  bps          00000067
+CSEG apagar       00000013
+CSEG sacanum      00000057
+CSEG obtener_num  0000001f
+CSEG generar_num_in 0000004d
+CSEG setup_sacar_de_memo 00000023
+CSEG sacar_de_memo 00000028
+CSEG despues      00000030
+CSEG modulo       0000004f
+CSEG generar_num_out 00000056
+CSEG sacanum_1    0000005b
+CSEG sacanum_fin  00000094
+CSEG sacanum_2    0000005f
+CSEG sacanum_3    00000063
+CSEG sacanum_4    00000067
+CSEG sacanum_5    0000006b
+CSEG sacanum_6    0000006f
+CSEG sacanum_7    00000073
+CSEG sacanum_8    00000077
+CSEG sacanum_9    0000007b
+CSEG sacanum_A    0000007f
+CSEG sacanum_B    00000083
+CSEG sacanum_C    00000087
+CSEG sacanum_D    0000008b
+CSEG sacanum_E    0000008f
+CSEG sacanum_F    00000093
+CSEG dato_serie   0000009c
+CSEG loop_dato1   0000009d
+CSEG loop_dato2   000000a2
+CSEG loop_dato3   000000a3
+CSEG enviar       000000a7

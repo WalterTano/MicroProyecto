@@ -20,7 +20,7 @@ setup:
 	ldi		r29,	HIGH(bps)
 	sts		UBRR0L,	r28
 	sts		UBRR0H,	r29
-	ldi		r28,	(1<<RXEN0)|(1<<TXEN0)
+	ldi		r28,	(1<<RXEN0)|(1<<TXEN0)	;RX y TX enabled
 	sts		UCSR0B,	r28
 
 ;configuro los puertos:
@@ -79,6 +79,8 @@ despues:
 	call	sacanum
 	ldi		r18,	0b11110000
 	and		r18,	r16
+	ldi		r23,	r18
+	call	enviar
 	lsr		r18
 	lsr		r18
 	lsr		r18
@@ -176,7 +178,7 @@ sacanum_A:
 	rjmp sacanum_fin
 sacanum_B:
 	cpi	r18, 11
-	brne sacanum_C ;cdefg
+	brne sacanum_C 
 	ldi r18, 0b11000001
 	rjmp sacanum_fin
 sacanum_C:
