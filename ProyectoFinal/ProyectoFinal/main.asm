@@ -12,7 +12,17 @@
 .org 0x0000
 
 setup:
-	mostrar_numeros:
+	; Inicializo TX y RX
+	.equ	baud	=	9600				;baudrate
+	.equ	F_CPU	=	16000000
+	.equ	bps		=	(F_CPU/16/baud) - 1	;baud prescale
+	ldi		r28,	LOW(bps)
+	ldi		r29,	HIGH(bps)
+	sts		UBRR0L,	r28
+	sts		UBRR0H,	r29
+	ldi		r28,	(1<<RXEN0)|(1<<TXEN0)
+	sts		UCSR0B,	r28
+
 ;configuro los puertos:
 ;	PB2 PB3 PB4 PB5	- son los LEDs del shield
 ;	PB0 es SD (serial data) para el display 7seg
@@ -210,4 +220,12 @@ loop_dato3:
 	sbi		0x0B, 7			;SCLK = 1 reloj en 1
 	dec		r20
 	brne	loop_dato1		;cuando r20 llega a 0 corta y vuelve
+	ret
+
+enviar:
+	lds		r22,	UCSR0A
+	sbrs	r22,	UDRE0
+	rjmp	enviar
+
+	sts		UDR0,	r23
 	ret
