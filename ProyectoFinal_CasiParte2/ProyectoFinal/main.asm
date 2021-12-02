@@ -1,14 +1,15 @@
 ;
-; AssemblerApplication1.asm
+; ProyectoFinal.asm
 ;
-; Created: 01/12/2021 21:37:50
+; Created: 16/11/2021 18:26:34
 ; Author : TanoW
 ;
 
-.org	0x0024
-	rjmp	rx_int
+.DSEG
+	num:	.byte 512
+.CSEG
 
-.org	0x0000
+.org 0x0000
 
 setup:
 	; Inicializo TX y RX
@@ -19,9 +20,10 @@ setup:
 	ldi		r29,	HIGH(bps)
 	sts		UBRR0L,	r28
 	sts		UBRR0H,	r29
-	ldi		r28,	(1<<RXEN0)|(1<<RXCIE0)	;|(1<<RXEN0)	;RX y TX enabled
+	ldi		r28,	(1<<TXEN0)				;|(1<<RXEN0)	;RX y TX enabled
 	sts		UCSR0B,	r28
-	;configuro los puertos:
+
+;configuro los puertos:
 ;	PB2 PB3 PB4 PB5	- son los LEDs del shield
 ;	PB0 es SD (serial data) para el display 7seg
 ;	PD7 es SCLK, el reloj de los shift registers del display 7seg
@@ -38,47 +40,117 @@ setup:
 	cbi		0x0B,	4			;PD.4 a 0, es el reloj del latch, inicializo a 0
 	ldi		r19,	0b00010000
 apagar:		; apaga todo el display de 7 segmentos
-	ldi		r18,0
-	ldi		r19,0b00000000
-	call	sacanum
-	ldi		r18,	0
+	ldi r18,0
+	ldi r19,0b11110000
+	call sacanum
+
+	ldi		r30,	low(num)
+	ldi		r31,	high(num)		; Guardo en registros la dirección en memoria donde se guarda el número.
+	ldi		r16,	125				; GLC: Valor inicial (X sub 0)
+	ldi		r17,	192				; GLC: Multiplicador (a)
+	ldi		r18,	134				; GLC: Incremento (c)
+	ldi		r19,	211				; GLC: Modulo (m)
+	ldi		r20,	0				; Inicializo r19 con 0 para contar los bits guardados.
+	ldi		r21,	0				; Inicializo r20 con 0 para contar cuando llegue a 512.
+
+obtener_num:
+	call	generar_num_in
+	sbrs	r21,	1
+	rjmp	obtener_num
+setup_sacar_de_memo:
+	ldi		r16,	0
+	ldi		r17,	0
 	ldi		r19,	0
-	ldi		r21,	0
-	ldi		r22,	0
-	ldi		r23,	0
-	ldi		r24,	0
+	ldi		r20,	0
+	clr		r0
+sacar_de_memo:
+	ld		r18,	-Z
+	add		r16,	r18
+	adc		r17,	r0
+	inc		r19
+	brbc	1,		sacar_de_memo
+	inc		r20
+	sbrs	r20,	1
+	rjmp	sacar_de_memo
+despues:
+	ldi		r23,	0b00010000
+	call	enviar
+	ldi		r23,	0b00001111
+	and		r23,	r16
+	call	enviar
+	ldi		r23,	0b00100000
+	call	enviar
+	ldi		r23,	0b11110000
+	and		r23,	r16
+	lsr		r23
+	lsr		r23
+	lsr		r23
+	lsr		r23
+	call	enviar
+	ldi		r23,	0b01000000
+	call	enviar
+	ldi		r23,	0b00001111
+	and		r23,	r17
+	call	enviar
+	ldi		r23,	0b10000000
+	call	enviar
+	ldi		r23,	0b11110000
+	and		r23,	r17
+	lsr		r23
+	lsr		r23
+	lsr		r23
+	lsr		r23
+	call	enviar
+	
 
-.org	0x0060
-
-main:
-	cpi		r20,	2
-	brne	main
-loop:
 	ldi		r18,	0b00001111
-	and		r18,	r21
+	and		r18,	r16
 	ldi		r19,	0b00010000
 	call	sacanum
+
 	ldi		r18,	0b11110000
-	and		r18,	r21
+	and		r18,	r16
 	lsr		r18
 	lsr		r18
 	lsr		r18
 	lsr		r18
 	ldi		r19,	0b00100000
 	call	sacanum
+
 	ldi		r18,	0b00001111
-	and		r18,	r22
+	and		r18,	r17
 	ldi		r19,	0b01000000
 	call	sacanum
+
 	ldi		r18,	0b11110000
-	and		r18,	r22
+	and		r18,	r17
 	lsr		r18
 	lsr		r18
 	lsr		r18
 	lsr		r18
 	ldi		r19,	0b10000000
 	call	sacanum
-	rjmp loop
+	rjmp despues
+
+	;lookup table con cpis de todos los cantidades pares de bits en 4 bits
+;-----------------------------------------------------------------------------------------
+; Genera un número aleatorio utilizando un algoritmo generador lineal recurrencial (GLC).
+;-----------------------------------------------------------------------------------------
+generar_num_in:
+	mul		r16,	r17
+	adc		r16,	r18
+
+modulo:
+	sbc		r16,	r19
+	cp		r16,	r19
+	brsh	modulo 
+	st		Z+,		r16
+	inc		r20
+	brbc	1,		generar_num_out
+	inc		r21
+
+generar_num_out:
+	ret
 
 sacanum: 
 	cpi r18, 0
@@ -183,36 +255,10 @@ loop_dato3:
 	brne	loop_dato1		;cuando r20 llega a 0 corta y vuelve
 	ret
 
-rx_int:
-	lds		r18,	UDR0
-	cpi		r18,	1
-	sbrs	r24,	0
-	brne	rx_int_out
-	ldi		r24,	1
-	cpi		r20,	2
-	breq	rx_int_out
-	lds		r18,	UDR0
-	add		r21,	r18
-	adc		r22,	r23
-	inc		r19
-	brbc	1,		rx_int_out
-	inc		r20
+enviar:
+	lds		r22,	UCSR0A
+	sbrs	r22,	UDRE0
+	rjmp	enviar
 
-rx_int_out:
-	reti
-
-;rx_int:
-;	cpi		r18,	0
-;	brne	rx_r19
-;	lds		r18,	UDR0
-;	cpi		r18,	0
-;	breq	rx_int_out
-;rx_r19:
-;	lds		r19,	UDR0
-;	cpi		r19,	0
-;	breq	rx_int_out
-;	call	sacanum
-;	ldi		r18,	0
-;	ldi		r19,	0
-;rx_int_out:
-;	reti
+	sts		UDR0,	r23
+	ret

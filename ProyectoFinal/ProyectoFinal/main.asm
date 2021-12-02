@@ -64,11 +64,19 @@ setup_sacar_de_memo:
 	ldi		r20,	0
 	clr		r0
 sacar_de_memo:
-	ld		r18,	-Z
-	add		r16,	r18
-	adc		r17,	r0
+	ld		r23,	-Z
+	call	enviar
 	inc		r19
 	brbc	1,		sacar_de_memo
+	inc		r20
+	sbrs	r20,	1
+	rjmp	sacar_de_memo
+fin:
+	nop
+	rjmp	fin
+
+	add		r16,	r18
+	adc		r17,	r0
 	inc		r20
 	sbrs	r20,	1
 	rjmp	sacar_de_memo

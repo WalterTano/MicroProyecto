@@ -43,42 +43,16 @@ apagar:		; apaga todo el display de 7 segmentos
 	call	sacanum
 	ldi		r18,	0
 	ldi		r19,	0
-	ldi		r21,	0
-	ldi		r22,	0
-	ldi		r23,	0
-	ldi		r24,	0
+	;ldi		r21,	0
+	;ldi		r22,	0
+	;ldi		r23,	0
+	;ldi		r24,	0
 
 .org	0x0060
 
 main:
-	cpi		r20,	2
-	brne	main
-loop:
-	ldi		r18,	0b00001111
-	and		r18,	r21
-	ldi		r19,	0b00010000
-	call	sacanum
-	ldi		r18,	0b11110000
-	and		r18,	r21
-	lsr		r18
-	lsr		r18
-	lsr		r18
-	lsr		r18
-	ldi		r19,	0b00100000
-	call	sacanum
-	ldi		r18,	0b00001111
-	and		r18,	r22
-	ldi		r19,	0b01000000
-	call	sacanum
-	ldi		r18,	0b11110000
-	and		r18,	r22
-	lsr		r18
-	lsr		r18
-	lsr		r18
-	lsr		r18
-	ldi		r19,	0b10000000
-	call	sacanum
-	rjmp loop
+	nop
+	rjmp main
 
 sacanum: 
 	cpi r18, 0
@@ -184,35 +158,17 @@ loop_dato3:
 	ret
 
 rx_int:
+	cpi		r18,	0
+	brne	rx_r19
 	lds		r18,	UDR0
-	cpi		r18,	1
-	sbrs	r24,	0
-	brne	rx_int_out
-	ldi		r24,	1
-	cpi		r20,	2
+	cpi		r18,	0
 	breq	rx_int_out
-	lds		r18,	UDR0
-	add		r21,	r18
-	adc		r22,	r23
-	inc		r19
-	brbc	1,		rx_int_out
-	inc		r20
-
+rx_r19:
+	lds		r19,	UDR0
+	cpi		r19,	0
+	breq	rx_int_out
+	call	sacanum
+	ldi		r18,	0
+	ldi		r19,	0
 rx_int_out:
 	reti
-
-;rx_int:
-;	cpi		r18,	0
-;	brne	rx_r19
-;	lds		r18,	UDR0
-;	cpi		r18,	0
-;	breq	rx_int_out
-;rx_r19:
-;	lds		r19,	UDR0
-;	cpi		r19,	0
-;	breq	rx_int_out
-;	call	sacanum
-;	ldi		r18,	0
-;	ldi		r19,	0
-;rx_int_out:
-;	reti
