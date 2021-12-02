@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor_CasiParte2\ProyectoReceptor\main.asm Wed Dec 01 23:26:25 2021
+AVRASM ver. 2.2.8  C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoReceptor_CasiParte2\ProyectoReceptor\main.asm Thu Dec 02 19:54:39 2021
 
 
 EQU  SIGNATURE_000 0000001e
@@ -723,5 +723,5 @@ CSEG dato_serie   000000a7
 CSEG loop_dato1   000000a8
 CSEG loop_dato2   000000ad
 CSEG loop_dato3   000000ae
-CSEG rx_r19       000000b8
-CSEG rx_int_out   000000c0
+CSEG rx_r19       000000b6
+CSEG rx_int_out   000000bc

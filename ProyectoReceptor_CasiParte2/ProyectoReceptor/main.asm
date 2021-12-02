@@ -161,12 +161,8 @@ rx_int:
 	cpi		r18,	0
 	brne	rx_r19
 	lds		r18,	UDR0
-	cpi		r18,	0
-	breq	rx_int_out
 rx_r19:
 	lds		r19,	UDR0
-	cpi		r19,	0
-	breq	rx_int_out
 	call	sacanum
 	ldi		r18,	0
 	ldi		r19,	0

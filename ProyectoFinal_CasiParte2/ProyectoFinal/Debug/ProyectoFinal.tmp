@@ -1,18 +1,18 @@
 <ASSEMBLER_INFO>
  <VERSION>2.2.8</VERSION>
  <DEVICE>"ATmega328P"</DEVICE>
- <WORKING_DIR>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\Debug</WORKING_DIR>
+ <WORKING_DIR>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\Debug</WORKING_DIR>
  <INCLUDE_PATH>
   <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
   <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
   <DIR></DIR>
  </INCLUDE_PATH>
- <SOURCE_FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</SOURCE_FILE>
+ <SOURCE_FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</SOURCE_FILE>
  <INCLUDED_FILES>
   <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328Pdef.inc</FILE>
  </INCLUDED_FILES>
  <OBJECT_FILES>
-  <FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\Debug\ProyectoFinal.obj</FILE>
+  <FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\Debug\ProyectoFinal.obj</FILE>
  </OBJECT_FILES>
  <HEX_FILES>
   <FILE>ProyectoFinal.hex</FILE>
@@ -22,37 +22,37 @@
   <FILE>ProyectoFinal.lss</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <num><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>9</LINE></num>
-  <setup><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>14</LINE></setup>
-  <apagar><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>42</LINE></apagar>
-  <sacanum><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>155</LINE></sacanum>
-  <obtener_num><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>56</LINE></obtener_num>
-  <generar_num_in><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>139</LINE></generar_num_in>
-  <setup_sacar_de_memo><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>60</LINE></setup_sacar_de_memo>
-  <sacar_de_memo><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>66</LINE></sacar_de_memo>
-  <despues><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>75</LINE></despues>
-  <enviar><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>258</LINE></enviar>
-  <modulo><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>143</LINE></modulo>
-  <generar_num_out><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>152</LINE></generar_num_out>
-  <sacanum_1><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>160</LINE></sacanum_1>
-  <sacanum_fin><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>233</LINE></sacanum_fin>
-  <sacanum_2><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>165</LINE></sacanum_2>
-  <sacanum_3><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>170</LINE></sacanum_3>
-  <sacanum_4><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>175</LINE></sacanum_4>
-  <sacanum_5><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>180</LINE></sacanum_5>
-  <sacanum_6><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>185</LINE></sacanum_6>
-  <sacanum_7><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>190</LINE></sacanum_7>
-  <sacanum_8><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>195</LINE></sacanum_8>
-  <sacanum_9><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>200</LINE></sacanum_9>
-  <sacanum_A><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>205</LINE></sacanum_A>
-  <sacanum_B><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>210</LINE></sacanum_B>
-  <sacanum_C><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>215</LINE></sacanum_C>
-  <sacanum_D><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>220</LINE></sacanum_D>
-  <sacanum_E><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>225</LINE></sacanum_E>
-  <sacanum_F><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>230</LINE></sacanum_F>
-  <dato_serie><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>242</LINE></dato_serie>
-  <loop_dato1><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>244</LINE></loop_dato1>
-  <loop_dato2><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>250</LINE></loop_dato2>
-  <loop_dato3><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>252</LINE></loop_dato3>
+  <num><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>9</LINE></num>
+  <setup><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>14</LINE></setup>
+  <apagar><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>42</LINE></apagar>
+  <sacanum><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>155</LINE></sacanum>
+  <obtener_num><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>56</LINE></obtener_num>
+  <generar_num_in><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>139</LINE></generar_num_in>
+  <setup_sacar_de_memo><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>60</LINE></setup_sacar_de_memo>
+  <sacar_de_memo><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>66</LINE></sacar_de_memo>
+  <despues><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>75</LINE></despues>
+  <enviar><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>258</LINE></enviar>
+  <modulo><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>143</LINE></modulo>
+  <generar_num_out><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>152</LINE></generar_num_out>
+  <sacanum_1><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>160</LINE></sacanum_1>
+  <sacanum_fin><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>233</LINE></sacanum_fin>
+  <sacanum_2><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>165</LINE></sacanum_2>
+  <sacanum_3><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>170</LINE></sacanum_3>
+  <sacanum_4><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>175</LINE></sacanum_4>
+  <sacanum_5><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>180</LINE></sacanum_5>
+  <sacanum_6><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>185</LINE></sacanum_6>
+  <sacanum_7><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>190</LINE></sacanum_7>
+  <sacanum_8><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>195</LINE></sacanum_8>
+  <sacanum_9><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>200</LINE></sacanum_9>
+  <sacanum_A><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>205</LINE></sacanum_A>
+  <sacanum_B><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>210</LINE></sacanum_B>
+  <sacanum_C><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>215</LINE></sacanum_C>
+  <sacanum_D><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>220</LINE></sacanum_D>
+  <sacanum_E><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>225</LINE></sacanum_E>
+  <sacanum_F><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>230</LINE></sacanum_F>
+  <dato_serie><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>242</LINE></dato_serie>
+  <loop_dato1><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>244</LINE></loop_dato1>
+  <loop_dato2><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>250</LINE></loop_dato2>
+  <loop_dato3><FILE>C:\Users\TanoW\OneDrive - Universidad Católica del Uruguay\Escritorio\Microprocesadores\MicroProyecto\ProyectoFinal_CasiParte2\ProyectoFinal\main.asm</FILE><LINE>252</LINE></loop_dato3>
  </LABELS>
 </ASSEMBLER_INFO>
