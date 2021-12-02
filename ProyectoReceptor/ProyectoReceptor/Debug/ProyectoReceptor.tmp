@@ -1,0 +1,53 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\Debug\ProyectoReceptor.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>ProyectoReceptor.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>ProyectoReceptor.map</FILE>
+  <FILE>ProyectoReceptor.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <rx_int><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>192</LINE></rx_int>
+  <setup><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>13</LINE></setup>
+  <apagar><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>40</LINE></apagar>
+  <sacanum><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>89</LINE></sacanum>
+  <main><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>53</LINE></main>
+  <sacanum_1><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>94</LINE></sacanum_1>
+  <sacanum_fin><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>167</LINE></sacanum_fin>
+  <sacanum_2><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>99</LINE></sacanum_2>
+  <sacanum_3><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>104</LINE></sacanum_3>
+  <sacanum_4><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>109</LINE></sacanum_4>
+  <sacanum_5><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>114</LINE></sacanum_5>
+  <sacanum_6><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>119</LINE></sacanum_6>
+  <sacanum_7><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>124</LINE></sacanum_7>
+  <sacanum_8><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>129</LINE></sacanum_8>
+  <sacanum_9><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>134</LINE></sacanum_9>
+  <sacanum_A><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>139</LINE></sacanum_A>
+  <sacanum_B><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>144</LINE></sacanum_B>
+  <sacanum_C><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>149</LINE></sacanum_C>
+  <sacanum_D><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>154</LINE></sacanum_D>
+  <sacanum_E><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>159</LINE></sacanum_E>
+  <sacanum_F><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>164</LINE></sacanum_F>
+  <dato_serie><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>176</LINE></dato_serie>
+  <loop_dato1><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>178</LINE></loop_dato1>
+  <loop_dato2><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>184</LINE></loop_dato2>
+  <loop_dato3><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>186</LINE></loop_dato3>
+  <rx_r19><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>198</LINE></rx_r19>
+  <rx_int_out><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoReceptor\ProyectoReceptor\main.asm</FILE><LINE>205</LINE></rx_int_out>
+ </LABELS>
+</ASSEMBLER_INFO>

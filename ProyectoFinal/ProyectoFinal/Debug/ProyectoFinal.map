@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm Wed Dec 01 15:00:35 2021
+AVRASM ver. 2.2.8  E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm Wed Dec 01 22:52:18 2021
 
 
 EQU  SIGNATURE_000 0000001e
@@ -701,32 +701,32 @@ EQU  baud         00002580
 EQU  F_CPU        00f42400
 EQU  bps          00000067
 CSEG apagar       00000013
-CSEG sacanum      00000057
+CSEG sacanum      0000007b
 CSEG obtener_num  0000001f
-CSEG generar_num_in 0000004d
+CSEG generar_num_in 00000071
 CSEG setup_sacar_de_memo 00000023
 CSEG sacar_de_memo 00000028
 CSEG despues      00000030
-CSEG modulo       0000004f
-CSEG generar_num_out 00000056
-CSEG sacanum_1    0000005b
-CSEG sacanum_fin  00000094
-CSEG sacanum_2    0000005f
-CSEG sacanum_3    00000063
-CSEG sacanum_4    00000067
-CSEG sacanum_5    0000006b
-CSEG sacanum_6    0000006f
-CSEG sacanum_7    00000073
-CSEG sacanum_8    00000077
-CSEG sacanum_9    0000007b
-CSEG sacanum_A    0000007f
-CSEG sacanum_B    00000083
-CSEG sacanum_C    00000087
-CSEG sacanum_D    0000008b
-CSEG sacanum_E    0000008f
-CSEG sacanum_F    00000093
-CSEG dato_serie   0000009c
-CSEG loop_dato1   0000009d
-CSEG loop_dato2   000000a2
-CSEG loop_dato3   000000a3
-CSEG enviar       000000a7
+CSEG enviar       000000cb
+CSEG modulo       00000073
+CSEG generar_num_out 0000007a
+CSEG sacanum_1    0000007f
+CSEG sacanum_fin  000000b8
+CSEG sacanum_2    00000083
+CSEG sacanum_3    00000087
+CSEG sacanum_4    0000008b
+CSEG sacanum_5    0000008f
+CSEG sacanum_6    00000093
+CSEG sacanum_7    00000097
+CSEG sacanum_8    0000009b
+CSEG sacanum_9    0000009f
+CSEG sacanum_A    000000a3
+CSEG sacanum_B    000000a7
+CSEG sacanum_C    000000ab
+CSEG sacanum_D    000000af
+CSEG sacanum_E    000000b3
+CSEG sacanum_F    000000b7
+CSEG dato_serie   000000c0
+CSEG loop_dato1   000000c1
+CSEG loop_dato2   000000c6
+CSEG loop_dato3   000000c7

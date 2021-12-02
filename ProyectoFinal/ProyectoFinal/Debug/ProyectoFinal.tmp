@@ -25,34 +25,34 @@
   <num><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>9</LINE></num>
   <setup><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>14</LINE></setup>
   <apagar><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>42</LINE></apagar>
-  <sacanum><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>122</LINE></sacanum>
+  <sacanum><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>155</LINE></sacanum>
   <obtener_num><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>56</LINE></obtener_num>
-  <generar_num_in><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>106</LINE></generar_num_in>
+  <generar_num_in><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>139</LINE></generar_num_in>
   <setup_sacar_de_memo><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>60</LINE></setup_sacar_de_memo>
   <sacar_de_memo><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>66</LINE></sacar_de_memo>
   <despues><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>75</LINE></despues>
-  <modulo><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>110</LINE></modulo>
-  <generar_num_out><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>119</LINE></generar_num_out>
-  <sacanum_1><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>127</LINE></sacanum_1>
-  <sacanum_fin><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>200</LINE></sacanum_fin>
-  <sacanum_2><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>132</LINE></sacanum_2>
-  <sacanum_3><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>137</LINE></sacanum_3>
-  <sacanum_4><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>142</LINE></sacanum_4>
-  <sacanum_5><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>147</LINE></sacanum_5>
-  <sacanum_6><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>152</LINE></sacanum_6>
-  <sacanum_7><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>157</LINE></sacanum_7>
-  <sacanum_8><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>162</LINE></sacanum_8>
-  <sacanum_9><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>167</LINE></sacanum_9>
-  <sacanum_A><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>172</LINE></sacanum_A>
-  <sacanum_B><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>177</LINE></sacanum_B>
-  <sacanum_C><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>182</LINE></sacanum_C>
-  <sacanum_D><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>187</LINE></sacanum_D>
-  <sacanum_E><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>192</LINE></sacanum_E>
-  <sacanum_F><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>197</LINE></sacanum_F>
-  <dato_serie><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>209</LINE></dato_serie>
-  <loop_dato1><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>211</LINE></loop_dato1>
-  <loop_dato2><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>217</LINE></loop_dato2>
-  <loop_dato3><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>219</LINE></loop_dato3>
-  <enviar><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>225</LINE></enviar>
+  <enviar><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>258</LINE></enviar>
+  <modulo><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>143</LINE></modulo>
+  <generar_num_out><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>152</LINE></generar_num_out>
+  <sacanum_1><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>160</LINE></sacanum_1>
+  <sacanum_fin><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>233</LINE></sacanum_fin>
+  <sacanum_2><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>165</LINE></sacanum_2>
+  <sacanum_3><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>170</LINE></sacanum_3>
+  <sacanum_4><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>175</LINE></sacanum_4>
+  <sacanum_5><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>180</LINE></sacanum_5>
+  <sacanum_6><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>185</LINE></sacanum_6>
+  <sacanum_7><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>190</LINE></sacanum_7>
+  <sacanum_8><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>195</LINE></sacanum_8>
+  <sacanum_9><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>200</LINE></sacanum_9>
+  <sacanum_A><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>205</LINE></sacanum_A>
+  <sacanum_B><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>210</LINE></sacanum_B>
+  <sacanum_C><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>215</LINE></sacanum_C>
+  <sacanum_D><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>220</LINE></sacanum_D>
+  <sacanum_E><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>225</LINE></sacanum_E>
+  <sacanum_F><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>230</LINE></sacanum_F>
+  <dato_serie><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>242</LINE></dato_serie>
+  <loop_dato1><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>244</LINE></loop_dato1>
+  <loop_dato2><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>250</LINE></loop_dato2>
+  <loop_dato3><FILE>E:\Universidad\Microprocesadores\MicroProyecto\MicroProyecto\ProyectoFinal\ProyectoFinal\main.asm</FILE><LINE>252</LINE></loop_dato3>
  </LABELS>
 </ASSEMBLER_INFO>
